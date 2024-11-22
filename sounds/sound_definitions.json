@@ -1,0 +1,15 @@
+{
+   "format_version": "1.14.0",
+   "sound_definitions": {
+     "hero:sound": {
+       "category": "neutral",
+       "sounds": [
+         {
+            "name": "sounds/hero/sound",
+            "volume": 1, "is3D": false
+         }
+       ]
+     }
+   }
+ }
+ 

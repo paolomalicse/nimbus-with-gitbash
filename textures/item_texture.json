@@ -1,0 +1,8 @@
+{
+	"texture_data": {
+		//Items
+		"hero:school_light": {
+			"textures": "textures/hero/items/school_light.png"
+		}
+	}
+}

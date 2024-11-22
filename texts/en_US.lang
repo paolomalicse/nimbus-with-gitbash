@@ -1,0 +1,29 @@
+pack.name=JACKY Pack
+pack.description=Tutorial
+
+
+############################ INTERACT ############################
+
+action.interact.rotate=Rotate
+action.interact.paint=Paint
+action.interact.remove=Remove
+
+action.interact.sit=Sit
+action.interact.ride=Ride
+action.interact.on=On
+action.interact.off=Off
+action.interact.open=Open
+action.interact.close=Close
+action.interact.take.it=Take It
+action.interact.put.it=Put
+action.interact.interact=Interact
+
+############################ CUSTOM ENTITIES ############################
+action.hint.exit.hero:couch=Tap Sneak To Dismount
+
+item.spawn_egg.entity.hero:couch.name=Spawn Couch
+
+entity.hero:couch.name=Couch
+
+
+

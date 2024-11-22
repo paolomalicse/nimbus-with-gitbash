@@ -1,0 +1,71 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "hero:couch",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/hero/entity/couch"
+      },
+      "geometry": {
+        "default": "geometry.hero.couch"
+      },
+      "scripts": {
+        "animate": [ "rotation" ]
+      },
+      "animations": {
+        "rotation":"animation.hero.rotation.default"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "overlay_color": "#FFFFFF", 
+        "base_color": "#33ff00"
+      }
+    }
+  }
+}
+/*
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "hero:couch",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/hero/entity/couch"
+        //
+        "skin.0": "textures/hero/entity/couch/0"
+        "skin.1": "textures/hero/entity/couch/1"
+      },
+      "geometry": {
+        "default": "geometry.hero.couch"
+        //
+        "geo.0": "geometry.hero.couch.0"
+        "geo.1": "geometry.hero.couch.1"
+      },
+      "scripts": {
+        "animate": [ "rotation" ]
+      },
+      "animations": {
+        "default": "controller.animation.hero.couch.default",
+        "rotation":"animation.hero.static.rotation"
+      },
+      "particle_effects": { "hero.particle.1": "hero:particle" },
+      "sound_effects": { "open": "hero:sound" },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "overlay_color": "#FFFFFF", "base_color": "#FFFFFF",
+        //
+        "texture": "hero:couch"
+      }
+    }
+  }
+}*/

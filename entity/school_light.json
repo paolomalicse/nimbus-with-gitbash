@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "hero:school_light",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/hero/entity/school_light"
+      },
+      "geometry": {
+        "default": "geometry.hero.school_light"
+      },
+      "scripts": {
+        "animate": [ "rotation" ]
+      },
+      "animations": {
+        "rotation":"animation.hero.rotation.default"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "hero:school_light"
+      }
+    }
+  }
+}
